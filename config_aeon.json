@@ -1,8 +1,8 @@
 {
-    "coin": "aeon2",
-    "symbol": "AEON",
-    "coinUnits": 1000000000000,
-    "coinDifficultyTarget": 240,
+    "coin": "pennykoin",
+    "symbol": "Pk",
+    "coinUnits": 100,
+    "coinDifficultyTarget": 180,
 
     "logging": {
         "files": {
@@ -19,7 +19,7 @@
     "poolServer": {
         "enabled": true,
         "clusterForks": 4,
-        "poolAddress": "WmtueUL4cvy7wmfX4EgYPjeSNVUDqSMqZfyr4RrS6g86QoLKQ9DCw3dhvQrzr5EkZnHFtzJ6EpgiKNa7Ne6qX9e41pRw6xtuh",
+        "poolAddress": "PNNYf8JycTsYPqmmLKAkanW8iXZFF2R8vCNqwMHEDRwfDPxgNkz9P3yU1rQu5wXiKeBfP3cfHBvB3PhE6qJE9pkm53oBdQvo1G",
         "blockRefreshInterval": 1000,
         "minerTimeout": 900,
         "ports": [
@@ -76,11 +76,11 @@
         "enabled": true,
         "interval": 3600,
         "maxAddresses": 20,
-        "mixin": 2,
-        "transferFee": 10000000000,
-        "minPayment": 500000000000,
+        "mixin": 3,
+        "transferFee": 100,
+        "minPayment": 50000,
         "maxTransactionAmount": 200000000000000,
-        "denomination": 10000000000
+        "denomination": 100
     },
 
     "blockUnlocker": {
@@ -115,7 +115,7 @@
 
     "wallet": {
         "host": "127.0.0.1",
-        "port": 11182
+        "port": 53281
     },
 
     "redis": {
